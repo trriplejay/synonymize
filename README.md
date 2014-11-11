@@ -1,6 +1,6 @@
 ***Synonymizer and HaikuMe
 
-This project's goal is to allow a user to enter an english sentence, or subject, and have a valid haiku returned.
+**This project's goal is to allow a user to enter an english sentence, or subject, and have a valid haiku returned.
 
 This will happen through several step:
 1. be able to synonymize any given sentence.  
