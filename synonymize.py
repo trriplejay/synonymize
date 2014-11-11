@@ -169,38 +169,6 @@ class synonymizer(object):
         return synonyms
 
 
-
-def is_vowel(letter):
-    vowels = ['a', 'e', 'i', 'o', 'u']
-    return letter in vowels
-
-
-def count_diphthong_triphthong(word):
-    diphthongs = ['ai', 'ou', 'ei', 'ie', 'oa', 'oe', 'io', 'ea']
-
-
-def vowelcount(word):
-    """
-    count vowels in a word and return the result
-    """
-    return sum(list(map(is_vowel, list(word.lower()))))
-
-
-
-def pick_synonyms(word):
-    sample_json={u'verb': {u'syn': [u'prove', u'try', u'try out', u'examine', u'essay', u'screen', u'quiz', u'ascertain', u'be', u'check', u'determine', u'evaluate', u'find out', u'judge', u'learn', u'pass judgment', u'score', u'see', u'submit', u'take', u'undergo', u'watch']}, u'noun': {u'syn': [u'trial', u'trial run', u'tryout', u'mental test', u'mental testing', u'psychometric test', u'examination', u'exam', u'run', u'attempt', u'communicating', u'communication', u'cover', u'covering', u'effort', u'endeavor', u'endeavour', u'experiment', u'experimentation', u'mental measurement', u'natural covering', u'try']}}
-
-
-
-def syllablecount(sentence):
-    """
-    returns list of tuples with word, vowels
-    """
-    results = []
-    for word in sentence.split(' '):
-        results.append((word, vowelcount(word)))
-    return results
-
 if __name__ == '__main__':
 
     """
