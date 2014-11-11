@@ -1,4 +1,4 @@
-***Synonymizer and HaikuMe
+<h1>Synonymizer and HaikuMe</h1>
 
 **This project's goal is to allow a user to enter an english sentence, or subject, and have a valid haiku returned.
 
