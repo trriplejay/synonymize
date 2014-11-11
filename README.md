@@ -1,8 +1,8 @@
 <h1>Synonymizer and HaikuMe</h1>
 
-<h3>This project's goal is to allow a user to enter an english sentence, or subject, and have a valid haiku returned.</h3>
+<h4>This project's ultimate goal is to allow a user to enter an english sentence, or subject, and have a valid haiku returned.</h4>
 
-<h3>This will happen through several steps:</h3>
+<h4>This will happen through several steps:</h4>
 <ol>
   <li>be able to synonymize any given sentence.  
   Synonymization is defined as:
